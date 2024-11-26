@@ -74,8 +74,8 @@ It handles a collection of Story objects, it populates and displays them.<br/><b
 **Constructors:**<br/>
 | Declaration | Description |
 | ----------- | ----------- |
-| public StoryList() | Initializes the Stories list by loading and processing story data using the IOSystem.GetAllStrings() method. |
-| public StoryList(string path) | Initializes the Stories list by loading and processing story data from a specified file path using the IOSystem.GetAllStrings(path) method. |
+| public StoryList() | Initializes the Stories list. |
+| public StoryList(string path) | Initializes the Stories list using a file path to specify a file containing the story data. |
 
 **Properties:**<br/>
 | Declaration | Description |
